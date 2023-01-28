@@ -1,0 +1,239 @@
+:root {
+    --title-color: #2E2F42;
+    --logo-btn-color: #4D5AE5;
+    --hover-focus-color: #404BBF;
+    --text-contacts-color: #434455;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--title-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+ }
+
+ .logo-color {
+    color: var(--logo-btn-color);
+
+ }
+/*----HEADER---*/
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: inherit;
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-link:hover, .header-link:focus {
+    color: var(--hover-focus-color);
+}
+
+.header-mailto {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
+    color: var(--text-contacts-color);
+}
+
+.header-mailto:hover, .header-mailto:focus {
+    color: var(--hover-focus-color);
+}
+
+.header-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-contacts-color);
+}
+
+.header-tel:hover, .header-tel:focus {
+    color: var(--hover-focus-color);
+}
+
+/*----HERO---*/
+
+.hero {
+    background-color: var(--title-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: var(--logo-btn-color);
+}
+.hero-btn:hover, .hero-btn:focus {
+    background: var(--hover-focus-color);
+}
+
+/*----BENEFITS---*/
+
+
+.benefits {
+}
+.benefits-title {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.benefits-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-contacts-color);
+}
+
+/*----SERVICES---*/
+
+.services {
+}
+.services-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.services-list {
+}
+.services-item {
+}
+
+/*----TEAM---*/
+
+.team {
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-contacts-color);
+}
+
+/*----PORTFOLIO---*/
+
+.portfolio-btn {
+    font-family: 'inherit';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--logo-btn-color);
+    cursor: pointer;
+    background: #F4F4FD;
+
+}
+
+.portfolio-btn:hover, .header-link:focus {
+    background: var(--hover-focus-color);
+    color: #FFFFFF;
+}
+/*----FOOTER---*/
+
+.footer {
+    background: var(--title-color);
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
+
+}
