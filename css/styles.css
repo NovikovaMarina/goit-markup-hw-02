@@ -58,6 +58,7 @@ body {
 .header-item {
 }
 .header-link {
+    color: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -69,6 +70,7 @@ body {
 }
 
 .header-mailto {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;    
@@ -80,6 +82,7 @@ body {
 }
 
 .header-tel {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -97,7 +100,6 @@ body {
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -109,7 +111,7 @@ body {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -150,7 +152,6 @@ body {
 .services {
 }
 .services-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -167,7 +168,6 @@ body {
 .team {
 }
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -195,8 +195,17 @@ body {
 
 /*----PORTFOLIO---*/
 
+.portfolio {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
 .portfolio-btn {
-    font-family: 'inherit';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -207,13 +216,34 @@ body {
     color: var(--logo-btn-color);
     cursor: pointer;
     background: #F4F4FD;
-
 }
 
 .portfolio-btn:hover, .header-link:focus {
     background: var(--hover-focus-color);
     color: #FFFFFF;
 }
+
+.portfolio-list-example {
+}
+.portfolio-item-example {
+}
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-contacts-color);
+}
+
+
 /*----FOOTER---*/
 
 .footer {
